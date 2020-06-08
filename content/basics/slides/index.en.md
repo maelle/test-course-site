@@ -16,6 +16,8 @@ reveal_hugo:
 
 [Hugo page bundles](https://gohugo.io/content-management/page-bundles/) are a useful way to organize content.
 
+:rocket:
+
 ---
 
 To create a reveal-hugo presentation from the `index.md` file of a leaf page bundle, you need to specify the layout manually.
