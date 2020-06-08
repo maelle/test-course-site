@@ -6,7 +6,7 @@ hidden: true
 layout: list
 weight: 1
 reveal_hugo:
-  theme: "night"
+  theme: "solarized"
   margin: 0.2
 ---
 

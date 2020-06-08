@@ -3,6 +3,8 @@ languageCode = "en-US"
 defaultContentLanguage = "en"
 title = "My New Hugo Course Site"
 enableEmoji = true
+pygmentsUseClasses=true
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "index\\.html", '\.knit\.md$', '\.utf8\.md$']
 
 [module]
   [[module.imports]]
@@ -49,3 +51,10 @@ weight = 30
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
+
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

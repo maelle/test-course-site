@@ -1,0 +1,15 @@
+---
+title: Advanced
+weight: 10
+chapter: true
+slides: true
+output: hugodown::md_document
+---
+
+# Advanced
+
+Yay so we can use R Markdown.
+
+```{r}
+tibble::tibble(a = c(1, 2))
+```
