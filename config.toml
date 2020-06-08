@@ -58,3 +58,10 @@ weight = 30
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+      
+[params.reveal_hugo]
+load_default_plugins = false
+plugins = [
+  "reveal-js/plugin/zoom-js/zoom.js",
+  "reveal-js/plugin/notes/notes.js",
+]

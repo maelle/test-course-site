@@ -46,7 +46,7 @@
 </script>
 <!-- load Reveal.js plugins after Reveal.js is initialized -->
 {{ if $.Param "reveal_hugo.load_default_plugins" | default true }}
-  {{ $default_plugins := slice "plugin/markdown/marked.js" "plugin/markdown/markdown.js" "plugin/zoom-js/zoom.js" }}
+  {{ $default_plugins := slice "plugin/markdown/marked.js" "plugin/markdown/markdown.js" "plugin/highlight/highlight.js" "plugin/zoom-js/zoom.js" }}
   {{ range $default_plugins }}
   <script type="text/javascript" src="{{ printf "%s/%s" $reveal_location . | absURL }}"></script>
   {{ end }}
