@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://test-course-site.netlify.app/basics/slides/</loc>
+  </url>
+  
+  <url>
+    <loc>https://test-course-site.netlify.app/advanced/slides/</loc>
+  </url>
+  
+  <url>
+    <loc>https://test-course-site.netlify.app/basics/</loc>
+  </url>
+  
+  <url>
+    <loc>https://test-course-site.netlify.app/advanced/further-resources/</loc>
+  </url>
+  
+  <url>
+    <loc>https://test-course-site.netlify.app/basics/further-resources/</loc>
+  </url>
+  
+  <url>
+    <loc>https://test-course-site.netlify.app/advanced/</loc>
+  </url>
+  
+  <url>
+    <loc>https://test-course-site.netlify.app/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://test-course-site.netlify.app/credits/</loc>
+  </url>
+  
+  <url>
+    <loc>https://test-course-site.netlify.app/</loc>
+  </url>
+  
+  <url>
+    <loc>https://test-course-site.netlify.app/tags/</loc>
+  </url>
+  
+</urlset>

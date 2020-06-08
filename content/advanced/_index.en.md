@@ -15,7 +15,7 @@ Yay so we can use R Markdown.
 
 <div class="highlight">
 
-<pre class='chroma'><code class='language-r' data-lang='r'><span class='k'>tibble</span>::<span class='nf'><a href='https://tibble.tidyverse.org/reference/tibble.html'>tibble</a></span>(a = <span class='nf'>c</span>(<span class='m'>1</span>, <span class='m'>2</span>))
+<pre class='chroma'><code class='language-r' data-lang='r'><span class='k'>tibble</span><span>::</span><span class='nf'><a href='https://tibble.tidyverse.org/reference/tibble.html'>tibble</a></span>(a = <span class='nf'>c</span>(<span class='m'>1</span>, <span class='m'>2</span>))
 <span class='c'>#&gt; # A tibble: 2 x 1</span>
 <span class='c'>#&gt;       a</span>
 <span class='c'>#&gt;   &lt;dbl&gt;</span>

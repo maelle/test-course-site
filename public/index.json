@@ -1,0 +1,71 @@
+[
+{
+	"uri": "https://test-course-site.netlify.app/basics/slides/",
+	"title": "A cool slidedeck",
+	"tags": [],
+	"description": "",
+	"content": "Page Bundles  Hugo page bundles are a useful way to organize content.\n🚀\n To create a reveal-hugo presentation from the index.md file of a leaf page bundle, you need to specify the layout manually.\nlayout = \u0026#34;bundle\u0026#34;  Why? By default, reveal-hugo doesn\u0026rsquo;t create pages for single template types (foo.md), only for list template types (_index.md).\n This technique can also be used to output an HTML file for any section of a presentation, should you need to.\n"
+},
+{
+	"uri": "https://test-course-site.netlify.app/advanced/slides/",
+	"title": "Another deck",
+	"tags": [],
+	"description": "",
+	"content": "downlit  library(\"magick\") #\u0026gt; Linking to ImageMagick 6.9.7.4 #\u0026gt; Enabled features: fontconfig, freetype, fftw, lcms, pango, x11 #\u0026gt; Disabled features: cairo, ghostscript, rsvg, webp channel_types() #\u0026gt; [1] \"Undefined\" \"A\" \"All\" \"Alpha\" \"B\"  #\u0026gt; [6] \"Black\" \"Blue\" \"C\" \"Cyan\" \"Default\"  #\u0026gt; [11] \"G\" \"Gray\" \"Green\" \"H\" \"Hue\"  #\u0026gt; [16] \"Index\" \"K\" \"L\" \"Lightness\" \"Luminance\"  #\u0026gt; [21] \"Luminosity\" \"Magenta\" \"Matte\" \"M\" \"O\"  #\u0026gt; [26] \"Opacity\" \"Red\" \"R\" \"Saturation\" \"S\"  #\u0026gt; [31] \"Sync\" \"Y\" \"Yellow\" \"0\" \"1\"  #\u0026gt; [36] \"2\" \"3\" \"4\" \"5\"  library(\u0026#34;magick\u0026#34;) channel_types()  To create a reveal-hugo presentation from the index.md file of a leaf page bundle, you need to specify the layout manually.\nlayout = \u0026#34;bundle\u0026#34;  Why? By default, reveal-hugo doesn\u0026rsquo;t create pages for single template types (foo.md), only for list template types (_index.md).\n This technique can also be used to output an HTML file for any section of a presentation, should you need to.\n"
+},
+{
+	"uri": "https://test-course-site.netlify.app/basics/",
+	"title": "Basics",
+	"tags": [],
+	"description": "",
+	"content": "Basics Discover what this thing is.\nBrowse the slides from the menu or download them.\n"
+},
+{
+	"uri": "https://test-course-site.netlify.app/advanced/further-resources/",
+	"title": "Further resources",
+	"tags": [],
+	"description": "",
+	"content": "Further resources So you could also read a book and watch a movie.\n"
+},
+{
+	"uri": "https://test-course-site.netlify.app/basics/further-resources/",
+	"title": "Further resources",
+	"tags": [],
+	"description": "",
+	"content": "Further resources So you could also read a book and watch a movie.\n"
+},
+{
+	"uri": "https://test-course-site.netlify.app/advanced/",
+	"title": "Advanced",
+	"tags": [],
+	"description": "",
+	"content": "Advanced Yay so we can use R Markdown.\ntibble::tibble(a = c(1, 2)) #\u0026gt; # A tibble: 2 x 1 #\u0026gt; a #\u0026gt; \u0026lt;dbl\u0026gt; #\u0026gt; 1 1 #\u0026gt; 2 2  or\nlibrary(\"tibble\") tibble(a = c(1, 2)) #\u0026gt; # A tibble: 2 x 1 #\u0026gt; a #\u0026gt; \u0026lt;dbl\u0026gt; #\u0026gt; 1 1 #\u0026gt; 2 2  Chroma no downlit\ntibble::tibble(a = c(1, 2)) "
+},
+{
+	"uri": "https://test-course-site.netlify.app/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://test-course-site.netlify.app/credits/",
+	"title": "Credits",
+	"tags": [],
+	"description": "",
+	"content": "Tooling  Netlify - Continuous deployement and hosting of this documentation Hugo Hugo theme learn Hugo theme reveal-hugo  "
+},
+{
+	"uri": "https://test-course-site.netlify.app/",
+	"title": "Learn Theme for Hugo",
+	"tags": [],
+	"description": "",
+	"content": "Hugo test Blablabla\nA notice disclaimer\n "
+},
+{
+	"uri": "https://test-course-site.netlify.app/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]

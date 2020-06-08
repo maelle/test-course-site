@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<title>Another deck</title>
+<meta name="description" content="Test of a course website">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://test-course-site.netlify.app/reveal-js/css/reset.css">
+<link rel="stylesheet" href="https://test-course-site.netlify.app/reveal-js/css/reveal.css"><link rel="stylesheet" href="https://test-course-site.netlify.app/reveal-js/css/theme/solarized.css" id="theme">
+<link rel="stylesheet" href="https://test-course-site.netlify.app/highlight-js/default.min.css"><link id ="code" rel="stylesheet" type="text/css" href="/css/pygments.css" />
+    
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+  
+
+    <section><h1 id="downlit">downlit</h1>
+</section><section>
+<div class="highlight">
+<pre class='chroma'><code class='language-r' data-lang='r'><span class='nf'>library</span>(<span class='s'><a href='https://rdrr.io/pkg/magick/man'>"magick"</a></span>)
+<span class='c'>#&gt; Linking to ImageMagick 6.9.7.4</span>
+<span class='c'>#&gt; Enabled features: fontconfig, freetype, fftw, lcms, pango, x11</span>
+<span class='c'>#&gt; Disabled features: cairo, ghostscript, rsvg, webp</span>
+<span class='nf'><a href='https://rdrr.io/pkg/magick/man/options.html'>channel_types</a></span>()
+<span class='c'>#&gt;  [1] "Undefined"  "A"          "All"        "Alpha"      "B"         </span>
+<span class='c'>#&gt;  [6] "Black"      "Blue"       "C"          "Cyan"       "Default"   </span>
+<span class='c'>#&gt; [11] "G"          "Gray"       "Green"      "H"          "Hue"       </span>
+<span class='c'>#&gt; [16] "Index"      "K"          "L"          "Lightness"  "Luminance" </span>
+<span class='c'>#&gt; [21] "Luminosity" "Magenta"    "Matte"      "M"          "O"         </span>
+<span class='c'>#&gt; [26] "Opacity"    "Red"        "R"          "Saturation" "S"         </span>
+<span class='c'>#&gt; [31] "Sync"       "Y"          "Yellow"     "0"          "1"         </span>
+<span class='c'>#&gt; [36] "2"          "3"          "4"          "5"</span></code></pre>
+</div>
+<div class="highlight"><pre class="chroma"><code class="nohighlight" data-noescape><span class="nf">library</span><span class="p">(</span><span class="s">&#34;magick&#34;</span><span class="p">)</span>
+<span class="nf">channel_types</span><span class="p">()</span>
+</code></pre></div></section><section>
+<p>To create a reveal-hugo presentation from the <code>index.md</code> file of a leaf page bundle, you need to specify the layout manually.</p>
+<div class="highlight"><pre class="chroma"><code class="nohighlight" data-noescape><span class="nx">layout</span> <span class="p">=</span> <span class="s2">&#34;bundle&#34;</span>
+</code></pre></div></section><section>
+<p>Why? By default, reveal-hugo doesn&rsquo;t create pages for single template types (foo.md), only for list template types (_index.md).</p>
+</section><section>
+<p>This technique can also be used to output an HTML file for any section of a presentation, should you need to.</p>
+</section>
+
+  
+
+
+</div>
+      
+
+    </div>
+<script type="text/javascript" src=https://test-course-site.netlify.app/reveal-hugo/object-assign.js></script>
+
+<a href="https://test-course-site.netlify.app/reveal-js/css/print/" id="print-location" style="display: none;"></a>
+<script type="text/javascript">
+  var printLocationElement = document.getElementById('print-location');
+  var link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = printLocationElement.href + (window.location.search.match(/print-pdf/gi) ? 'pdf.css' : 'paper.css');
+  document.getElementsByTagName('head')[0].appendChild(link);
+</script>
+
+<script type="application/json" id="reveal-hugo-site-params">null</script>
+<script type="application/json" id="reveal-hugo-page-params">{"margin":0.2,"theme":"solarized"}</script>
+
+<script src="https://test-course-site.netlify.app/reveal-js/js/reveal.js"></script>
+
+<script type="text/javascript">
+  
+  
+  function camelize(map) {
+    if (map) {
+      Object.keys(map).forEach(function(k) {
+        newK = k.replace(/(\_\w)/g, function(m) { return m[1].toUpperCase() });
+        if (newK != k) {
+          map[newK] = map[k];
+          delete map[k];
+        }
+      });
+    }
+    return map;
+  }
+  
+  var revealHugoDefaults = { center: true, controls: true, history: true, progress: true, transition: "slide" };
+  var revealHugoSiteParams = JSON.parse(document.getElementById('reveal-hugo-site-params').innerHTML);
+  var revealHugoPageParams = JSON.parse(document.getElementById('reveal-hugo-page-params').innerHTML);
+  
+  var options = Object.assign({},
+    camelize(revealHugoDefaults),
+    camelize(revealHugoSiteParams),
+    camelize(revealHugoPageParams));
+  Reveal.initialize(options);
+</script>
+
+
+  
+  
+  <script type="text/javascript" src="https://test-course-site.netlify.app/reveal-js/plugin/markdown/marked.js"></script>
+  
+  <script type="text/javascript" src="https://test-course-site.netlify.app/reveal-js/plugin/markdown/markdown.js"></script>
+  
+  <script type="text/javascript" src="https://test-course-site.netlify.app/reveal-js/plugin/highlight/highlight.js"></script>
+  
+  <script type="text/javascript" src="https://test-course-site.netlify.app/reveal-js/plugin/zoom-js/zoom.js"></script>
+  
+  
+  <script type="text/javascript" src="https://test-course-site.netlify.app/reveal-js/plugin/notes/notes.js"></script>
+
+
+
+    
+    
+  </body>
+</html>

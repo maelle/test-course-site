@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learn Theme for Hugo on Documentation for Hugo Learn Theme</title>
+    <link>https://test-course-site.netlify.app/</link>
+    <description>Recent content in Learn Theme for Hugo on Documentation for Hugo Learn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="https://test-course-site.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A cool slidedeck</title>
+      <link>https://test-course-site.netlify.app/basics/slides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://test-course-site.netlify.app/basics/slides/</guid>
+      <description>Page Bundles  Hugo page bundles are a useful way to organize content.
+🚀
+ To create a reveal-hugo presentation from the index.md file of a leaf page bundle, you need to specify the layout manually.
+layout = &amp;#34;bundle&amp;#34;  Why? By default, reveal-hugo doesn&amp;rsquo;t create pages for single template types (foo.md), only for list template types (_index.md).
+ This technique can also be used to output an HTML file for any section of a presentation, should you need to.</description>
+    </item>
+    
+    <item>
+      <title>Another deck</title>
+      <link>https://test-course-site.netlify.app/advanced/slides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://test-course-site.netlify.app/advanced/slides/</guid>
+      <description>downlit  library(&#34;magick&#34;) #&amp;gt; Linking to ImageMagick 6.9.7.4 #&amp;gt; Enabled features: fontconfig, freetype, fftw, lcms, pango, x11 #&amp;gt; Disabled features: cairo, ghostscript, rsvg, webp channel_types() #&amp;gt; [1] &#34;Undefined&#34; &#34;A&#34; &#34;All&#34; &#34;Alpha&#34; &#34;B&#34;  #&amp;gt; [6] &#34;Black&#34; &#34;Blue&#34; &#34;C&#34; &#34;Cyan&#34; &#34;Default&#34;  #&amp;gt; [11] &#34;G&#34; &#34;Gray&#34; &#34;Green&#34; &#34;H&#34; &#34;Hue&#34;  #&amp;gt; [16] &#34;Index&#34; &#34;K&#34; &#34;L&#34; &#34;Lightness&#34; &#34;Luminance&#34;  #&amp;gt; [21] &#34;Luminosity&#34; &#34;Magenta&#34; &#34;Matte&#34; &#34;M&#34; &#34;O&#34;  #&amp;gt; [26] &#34;Opacity&#34; &#34;Red&#34; &#34;R&#34; &#34;</description>
+    </item>
+    
+    <item>
+      <title>Further resources</title>
+      <link>https://test-course-site.netlify.app/advanced/further-resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://test-course-site.netlify.app/advanced/further-resources/</guid>
+      <description>Further resources So you could also read a book and watch a movie.</description>
+    </item>
+    
+    <item>
+      <title>Further resources</title>
+      <link>https://test-course-site.netlify.app/basics/further-resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://test-course-site.netlify.app/basics/further-resources/</guid>
+      <description>Further resources So you could also read a book and watch a movie.</description>
+    </item>
+    
+    <item>
+      <title>Credits</title>
+      <link>https://test-course-site.netlify.app/credits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://test-course-site.netlify.app/credits/</guid>
+      <description>Tooling  Netlify - Continuous deployement and hosting of this documentation Hugo Hugo theme learn Hugo theme reveal-hugo  </description>
+    </item>
+    
+  </channel>
+</rss>
