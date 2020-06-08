@@ -1,7 +1,8 @@
-baseURL = "/"
+baseURL = "https://test-course-site.netlify.app/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 title = "My New Hugo Course Site"
+enableEmoji = true
 
 [module]
   [[module.imports]]

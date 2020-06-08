@@ -9,3 +9,5 @@ menuTitle: The beginning
 # Basics
 
 Discover what this thing is.
+
+Browse the slides from the menu or [download them](/basics.pdf).

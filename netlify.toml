@@ -1,6 +1,6 @@
 [build]
 publish = "/public"
-command = "hugo --gc -s . --minify"
+command = "hugo -d public && `npm bin`/decktape public/basics/slides/index.html public/basics.pdf"
 
 [context.production.environment]
   HUGO_VERSION = "0.72.0"
