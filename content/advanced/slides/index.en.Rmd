@@ -8,6 +8,7 @@ weight: 1
 reveal_hugo:
   theme: "solarized"
   margin: 0.2
+output: hugodown::md_document
 ---
 
 # downlit
@@ -19,7 +20,10 @@ library("magick")
 channel_types()
 ```
 
-:rocket:
+```r
+library("magick")
+channel_types()
+```
 
 ---
 
