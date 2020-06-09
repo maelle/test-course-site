@@ -51,6 +51,7 @@ weight = 30
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
+  themeVariant = "mine"
 
 
 
