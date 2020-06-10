@@ -19,3 +19,4 @@ Why use Hugo for both the website and slidedecks, and not, say Hugo+hugodown for
 * hugodown syntax highlighting
 * emojis! `:grin:` works in slides.
 
+Usage, minus the Decktape PDF printing, for [my Rmd blogging course](https://github.com/maelle/rmd-blogging-course).
