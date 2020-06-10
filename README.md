@@ -2,6 +2,7 @@
 # test-course-site
 
 <!-- badges: start -->
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6aa391d6-802d-46af-8c59-7761dcefc5ec/deploy-status)](https://app.netlify.com/sites/test-course-site/deploys)
 <!-- badges: end -->
 
 The goal of test-course-site is to create a course website with Hugo and hugodown.
