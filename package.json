@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/maelle/test-course-site#readme",
   "dependencies": {
-    "decktape": "^3.0.0"
+    "decktape": "^3.15.0"
   }
 }
